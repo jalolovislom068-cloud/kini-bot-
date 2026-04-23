@@ -168,7 +168,7 @@ async def receive_movie_description(message: Message, state: FSMContext):
             f"✅ <b>Kino muvaffaqiyatli qo'shildi!</b>\n\n"
             f"🎬 Nomi: <b>{data['title']}</b>\n"
             f"📌 Kod: <code>{data['code']}</code>\n"
-            f"📝 Tavsif: {description or "yuq"}",
+            f"📝 Tavsif: {description or 'yuq'}",
             reply_markup=admin_panel_keyboard()
         )
     else:
