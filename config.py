@@ -1,0 +1,6 @@
+BOT_TOKEN = "8737871300:AAG_qse3fZ4O3sGKBd4WJWBahmWq2tuHIjE"
+
+ADMIN_ID = 8560459628
+
+CHANNEL_USERNAME = "@uzbmediakino"
+CHANNEL_LINK = "https://t.me/uzbmediakino"
